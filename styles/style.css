@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f6f7f8;
+}
+
+.editarItemModal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    flex-direction: column;
+}
+
+.editarDivCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editarNomeCart{
+    font-weight: bold;
+}
+
+.editarPrecoCart{
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+#total{
+    display: flex;
+    align-self: flex-end;
+    gap: 4px;
+}
+
+.inputVermelho{
+    border: 2px solid #ef4444;
+}
+
+.spanVermelho{
+    background-color: #ef4444;
+}
